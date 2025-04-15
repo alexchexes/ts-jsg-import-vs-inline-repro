@@ -4,19 +4,23 @@
   "definitions": {
     "MyObject": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "foo": {
           "type": "string"
         },
         "bar": {
-          "type": "number"
+          "type": "string"
+        },
+        "baz": {
+          "type": "boolean"
         }
       },
       "required": [
-        "foo",
-        "bar"
-      ],
-      "additionalProperties": false
+        "bar",
+        "baz",
+        "foo"
+      ]
     }
   }
 }

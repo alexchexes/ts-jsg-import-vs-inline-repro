@@ -3,23 +3,30 @@
   "$ref": "#/definitions/MyObject",
   "definitions": {
     "MyObject": {
-      "$ref": "#/definitions/Plain"
+      "$ref": "#/definitions/OverrideSimple%3Calias-src_main-import.ts-56-109-src_main-import.ts-0-221%2Calias-src_main-import.ts-109-164-src_main-import.ts-0-221%3E"
     },
-    "Plain": {
+    "OverrideSimple<alias-src_main-import.ts-56-109-src_main-import.ts-0-221,alias-src_main-import.ts-109-164-src_main-import.ts-0-221>": {
+      "$ref": "#/definitions/Simplify%3CMerge%3Calias-src_main-import.ts-56-109-src_main-import.ts-0-221%2Calias-src_main-import.ts-109-164-src_main-import.ts-0-221%3E%3E"
+    },
+    "Simplify<Merge<alias-src_main-import.ts-56-109-src_main-import.ts-0-221,alias-src_main-import.ts-109-164-src_main-import.ts-0-221>>": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "foo": {
           "type": "string"
         },
         "bar": {
-          "type": "number"
+          "type": "string"
+        },
+        "baz": {
+          "type": "boolean"
         }
       },
       "required": [
-        "foo",
-        "bar"
-      ],
-      "additionalProperties": false
+        "bar",
+        "baz",
+        "foo"
+      ]
     }
   }
 }
