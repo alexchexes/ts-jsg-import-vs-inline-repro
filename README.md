@@ -6,3 +6,7 @@ vs
 
 - [import.ts](https://github.com/alexchexes/ts-jsg-import-vs-inline-repro/blob/master/src/main-import.ts)
 - [schema-import.json](https://github.com/alexchexes/ts-jsg-import-vs-inline-repro/blob/master/schema-import.json)
+
+---
+
+See the **[`master`](https://github.com/alexchexes/ts-jsg-import-vs-inline-repro/tree/master)** branch
