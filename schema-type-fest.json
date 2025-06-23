@@ -3,17 +3,6 @@
   "$ref": "#/definitions/MyObject",
   "definitions": {
     "MyObject": {
-      "$ref": "#/definitions/OverrideProperties%3Cinterface-883366451-64-156-883366451-0-262%2Cstructure-883366451-210-256-883366451-182-259-883366451-156-260-883366451-0-262%3E"
-    },
-    "OverrideProperties<interface-883366451-64-156-883366451-0-262,structure-883366451-210-256-883366451-182-259-883366451-156-260-883366451-0-262>": {
-      "$ref": "#/definitions/Merge%3Cinterface-883366451-64-156-883366451-0-262%2Cstructure-883366451-210-256-883366451-182-259-883366451-156-260-883366451-0-262%3E",
-      "description": "Override existing properties of the given type. Similar to `Merge`, but enforces that the original type has the properties you want to override.\n\nThis is useful when you want to override existing properties with a different type and make sure that these properties really exist in the original."
-    },
-    "Merge<interface-883366451-64-156-883366451-0-262,structure-883366451-210-256-883366451-182-259-883366451-156-260-883366451-0-262>": {
-      "$ref": "#/definitions/Simplify%3C(def-alias-592761510-169-376-592761510-0-1113%3Cdef-alias-508060929-0-1224-508060929-0-1225%3Cinterface-883366451-64-156-883366451-0-262%3E133203676%2Cdef-alias-508060929-0-1224-508060929-0-1225%3Cstructure-883366451-210-256-883366451-182-259-883366451-156-260-883366451-0-262%3E133203676%3E%26def-alias-592761510-169-376-592761510-0-1113%3Cdef-alias-982863721-0-3431-982863721-0-3432%3Cinterface-883366451-64-156-883366451-0-262%3E1883920271%2Cdef-alias-982863721-0-3431-982863721-0-3432%3Cstructure-883366451-210-256-883366451-182-259-883366451-156-260-883366451-0-262%3E1883920271%3E)%3E",
-      "description": "Merge two types into a new type. Keys of the second type overrides keys of the first type."
-    },
-    "Simplify<(def-alias-592761510-169-376-592761510-0-1113<def-alias-508060929-0-1224-508060929-0-1225<interface-883366451-64-156-883366451-0-262>133203676,def-alias-508060929-0-1224-508060929-0-1225<structure-883366451-210-256-883366451-182-259-883366451-156-260-883366451-0-262>133203676>&def-alias-592761510-169-376-592761510-0-1113<def-alias-982863721-0-3431-982863721-0-3432<interface-883366451-64-156-883366451-0-262>1883920271,def-alias-982863721-0-3431-982863721-0-3432<structure-883366451-210-256-883366451-182-259-883366451-156-260-883366451-0-262>1883920271>)>": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
@@ -36,7 +25,7 @@
         "foo",
         "qux"
       ],
-      "description": "Useful to flatten the type output to improve type hints shown in editors. And also to transform an interface into a type to aide with assignability."
+      "description": "Some description of the object"
     }
   }
 }

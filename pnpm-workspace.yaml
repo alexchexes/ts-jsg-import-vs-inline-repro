@@ -1,0 +1,2 @@
+overrides:
+  ts-json-schema-generator: link:../ts-json-schema-generator
