@@ -10,3 +10,8 @@ vs
 Also see 
 - [main-type-fest.ts](https://github.com/alexchexes/ts-jsg-import-vs-inline-repro/blob/master/src/main-type-fest.ts)
 - [schema-type-fest.json](https://github.com/alexchexes/ts-jsg-import-vs-inline-repro/blob/master/schema-type-fest.json)
+
+
+---
+
+See the **[`fixed`](https://github.com/alexchexes/ts-jsg-import-vs-inline-repro/tree/fixed)** branch
